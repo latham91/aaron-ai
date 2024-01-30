@@ -65,7 +65,7 @@ export default function HomePage() {
     };
 
     return (
-        <Container className="h-[calc(100vh-255px)] mt-16">
+        <Container className="h-[calc(100vh-255px)] mt-16 mb-10">
             <div>
                 <h1 className="text-6xl font-extrabold text-transparent bg-gradient-to-r from-accent via-teal-500 to-fuchsia-500 bg-clip-text">
                     Community Showcase

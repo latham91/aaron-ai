@@ -42,7 +42,7 @@ export default function CreatePost() {
             try {
                 setImgGenerating(true);
 
-                const response = await fetch("http://localhost:5001/api/v1/create", {
+                const response = await fetch("https://ai-aaron-api.onrender.com/api/v1/create", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -73,7 +73,7 @@ export default function CreatePost() {
             setLoading(true);
 
             try {
-                const response = await fetch("http://localhost:5001/api/v1/posts", {
+                const response = await fetch("https://ai-aaron-api.onrender.com/api/v1/posts", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",

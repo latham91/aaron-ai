@@ -31,7 +31,7 @@ export default function Card({ image, prompt, name, index, createdAt }) {
     return (
         <div
             className={`relative border-primary/10 border-2 rounded-xl group shadow-card hover:shadow-cardhover card ${
-                index % 5 === 0 && "col-span-2 row-span-2"
+                index === 0 && "col-span-2 row-span-2"
             }`}
         >
             <img src={image} alt={prompt} className="object-cover rounded-xl" />
